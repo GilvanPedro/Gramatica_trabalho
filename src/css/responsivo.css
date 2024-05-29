@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+    .informaçao{
+        display: block;
+        align-items: center;
+    }
+
+    .informaçao img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media (max-width: 709px) {
+
+    .caixa nav li a{
+        font-size: 20px;
+    }
+
+    .informaçao{
+        display: block;
+        align-items: center;
+
+    }
+
+    .informaçao img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 80%;
+        border-radius: 0;
+    }
+
+    .perguntasFrequentes h1{
+        padding-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .perguntasFrequentes h2{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .perguntasFrequentes p{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 658px){
+    
+    .caixa nav li a{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .caixa .logo{
+        max-width: 50px;
+        
+    }
+    
+    .perguntasFrequentes{
+        display: block;
+        border-radius: 0;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 658px){
+
+
+    .informaçao{
+        margin: 0;
+    }
+    
+    .caixa nav li a{
+        font-size: 10px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    form {
+        padding: 0;
+        margin: 0;
+    }
+
+    form label, form legend{
+        font-size: 10px;
+    }
+
+    .enviar{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    
+    }
+}
