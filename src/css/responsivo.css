@@ -11,6 +11,13 @@
     }
 }
 
+@media (max-width: 800px){
+    .perguntasFrequentes{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 @media (max-width: 709px) {
 
     .caixa nav li a{
