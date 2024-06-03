@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resot Limbrave</title>
+
+    <link rel="icon" href="./src/img/logo.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    </head>
+<body>
+    <header>
+        <div class="caixa" id="home">
+            <h1><a href=""><img class="logo" src="./src/img/logo.png" alt="resort logo"></a></h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="./eventos.html">Eventos</a></li>
+                    <li><a href="./donos.html">Donos</a></li>
+                    <li><a href="./ajudeRS.html">Ajude o RS</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <main>
+
+        <div class="informaçao">
+
+            <img src="./src/img/imagem.jpg" alt="">
+
+            <div class="sobreT">
+                <h1 class="titulo">Sobre Nós</h1>
+                <p>
+                    O Limbrave Resort é um destino único, meticulosamente projetado para transportar nossos visitantes a um mundo medieval encantador e imersivo. Nosso objetivo é proporcionar uma experiência autêntica e mágica, onde a história se encontra com a fantasia, criando um ambiente que satisfaz tanto os entusiastas da era medieval quanto os amantes de aventuras fictícias.
+                </p>
+                <p>
+                    No Limbrave Resort, cada detalhe é cuidadosamente pensado para refletir a vida na Idade Média. Desde a arquitetura dos edifícios e a decoração dos interiores até os trajes de nossos funcionários, tudo é concebido para oferecer uma experiência histórica precisa. Nossos especialistas em história trabalham arduamente para garantir que cada aspecto do resort esteja em consonância com os fatos e a cultura da época, proporcionando aos visitantes um mergulho profundo na realidade medieval.
+                </p>
+                <p>
+                    Ao mesmo tempo, não deixamos de lado o elemento fantástico que tanto encanta nossos visitantes. Histórias de cavaleiros, dragões, magos e princesas ganham vida através de eventos temáticos, encenações teatrais e atividades interativas. No Limbrave Resort, você pode participar de torneios de justa, explorar masmorras misteriosas, assistir a espetáculos épicos e se envolver em missões que desafiam sua imaginação.
+                </p>
+                <p>
+                    Nosso compromisso é oferecer uma experiência completa e inesquecível, onde o conhecimento histórico e a criatividade se unem para criar um ambiente único. No Limbrave Resort, cada momento é uma oportunidade para se aventurar em um passado repleto de maravilhas e mistérios, onde a realidade e a fantasia se encontram para criar memórias duradouras. Venha viver a magia da Idade Média conosco!
+                </p>
+            </div>
+            <div class="surgimento">
+                <h1 class="titulo">Como Surgimos</h1>
+            <p>
+                Em uma bela tarde, um grupo de amigos resolveu se reunir para jogar um RPG. À medida que a campanha avançava, um deles comentou o quanto seria incrível se um lugar com temática medieval oferecesse mais do que apenas um design rústico, trazendo algo mais imersivo e envolvente. Esse comentário fez com que todos ficassem pensativos por um momento. Logo, a pergunta "Por que não?" surgiu em suas mentes.
+            </p>
+            <p>
+                Movidos pela empolgação e pelo desejo de criar algo único, os amigos decidiram transformar essa ideia em realidade. Reuniram todas as suas economias e começaram a planejar um lugar onde a magia da era medieval pudesse ser vivenciada em sua plenitude. Assim nasceu o Limbrave Resort, um projeto audacioso que visava ir além das expectativas, oferecendo uma experiência autêntica e envolvente, onde história e fantasia se encontram para criar um mundo verdadeiramente encantador.
+            </p>
+            <p>
+                Cada detalhe foi cuidadosamente planejado, desde a arquitetura e a decoração até as atividades e eventos, tudo para garantir que os visitantes pudessem experimentar a era medieval de forma profunda e completa. Com dedicação e paixão, os amigos transformaram seu sonho em um resort que não apenas reflete a realidade da Idade Média, mas também traz à vida os elementos fantásticos que cativam a imaginação. O Limbrave Resort é mais do que um destino, é uma jornada ao passado repleta de aventuras e maravilhas, fruto da visão e do empenho de um grupo de amigos determinados a criar algo extraordinário.
+            </p>
+            </div>
+        </div>
+        </div>
+
+        <div class="perguntasFrequentes">
+            <h1>Perguntas Frequentes</h1>
+            <h2 class="perg">É Permitido Animais de Estimação?</h2>
+            <p class="resposta">
+                Sim, é permitido a estadia com animais de estimação.
+            </p>
+            <h2 class="perg">Resort Limbrave Dispõe um Estacionamento no Local?</h2>
+            <p class="resposta">
+                Sim, nós possuímos um estacionamento exclusivo para hóspedes, para que não haja preucupação com a segurança de seus veículos.
+            </p>
+        </div>
+
+    </main>
+    
+    <footer class="contato" id="contato">
+        <form>
+            <label class="inputPadrao" for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" required>
+            
+            <label class="inputPadrao" for="email">Email</label>
+            <input type="email" id="email" required placeholder="exemplo@gmail.com">
+
+            <label class="inputPadrao"for="telefone">Telefone</label>
+            <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+            <label class="inputPadrao" for="mensagem">Mensagem</label>
+            <textarea class="inputPadrao" cols="68" rows="10" id="mensagem" required placeholder="insira a sua mensam aqui"></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radioEmail"><input type="radio" name="contato" value="email" id="radioEmail" class="comoPrefereContato">Email</label>
+
+                <label for="radioTelefone"><input type="radio" name="contato" value="telefone" id="radioTelefone" class="comoPrefereContato">Telefone</label>
+
+                <label for="radioWhatsapp"><input type="radio" name="contato" value="Whatsapp" id="radioWhatsapp" checked class="comoPrefereContato">Whatsapp</label>
+             </fieldset>  
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber as novidades por email?</label>
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+    </footer>
+</body>
+</html>
