@@ -1,0 +1,86 @@
+@media (max-width: 1435px){
+    .doar img{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1000px){
+    .doar img{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 935px){
+    .doar img{
+        max-width: 150px;
+    }
+
+    .doar{
+        margin-left: 100px;
+    }
+
+    .RS ul{
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 780px){
+    .doar img{
+        max-width: 100px;
+    }
+    
+    .doar{
+        margin-left: 30px;
+    }
+
+    .RS ul{
+        margin-right: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 700px){
+    .RS{
+        box-shadow: none;
+        border-radius: 0;
+        margin: 30px;
+    }
+    
+    .doar{
+        display: block;
+    }
+    .doar img{
+        margin: auto;
+        display: flex;
+        max-width: 300px;
+    }
+
+    .RS ul{
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .ocorrido img{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 613px){  
+    .ocorrido img{
+        max-width: 300px;
+    }
+
+    .doar img{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 440px){
+    .ocorrido img{
+        max-width: 300px;
+    }
+
+    .RS{
+        margin: 10px
+    }
+}
