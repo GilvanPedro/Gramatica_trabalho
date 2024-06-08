@@ -1,0 +1,161 @@
+@media (max-width: 1200px) {
+    .informaçao{
+        display: block;
+        align-items: center;
+    }
+
+    .informaçao img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media (max-width: 860px){
+    .imagem{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 800px){
+    .perguntasFrequentes{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    form{
+        width: 700px;
+
+    }
+}
+
+@media (max-width: 709px) {
+
+    .caixa nav li a{
+        font-size: 20px;
+    }
+
+    .informaçao{
+        display: block;
+        margin-top: 40px;
+        align-items: center;
+
+    }
+
+    .informaçao img{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-width: 80%;
+        border-radius: 0;
+    }
+
+    .perguntasFrequentes{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .perguntasFrequentes h1{
+        padding-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .perguntasFrequentes h2{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .perguntasFrequentes p{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 658px){
+
+    .contato{
+        margin: 10px;
+    }
+
+    form{
+        width: 500px;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    .imagem{
+        max-width: 400px;
+    }
+
+    .caixa nav li a{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .caixa .logo{
+        max-width: 50px;
+        
+    }
+    
+    .perguntasFrequentes{
+        display: block;
+        border-radius: 0;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 658px){
+
+
+    .informaçao{
+        margin: 0;
+        margin-top: 40px;
+    }
+    
+    .caixa nav li a{
+        font-size: 10px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    form {
+        padding: 0;
+        margin: 0;
+    }
+
+    form label, form legend{
+        font-size: 10px;
+    }
+
+    .enviar{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    
+    }
+}
+
+@media (max-width: 550px){ 
+    
+    form{
+        display: none;
+    }
+    
+    main{
+        padding: 10px;
+    }
+    
+    .imagem{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 500px){
+    .informaçao{
+        margin-top: 40px;
+        border-radius: 0;
+
+    }
+}
